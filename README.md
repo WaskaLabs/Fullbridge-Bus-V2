@@ -74,27 +74,27 @@ The gate components are not one size fits all. The gates and waveforms should be
 
 Step by Step Assembly:
 
-1. Spec and purchase all components for your design.
+1. Spec and purchase all components for your design. Refer to BOM.
 2. Solder bus caps onto PCB and test the DC voltage across the bus as well as voltage drain from bleeder resistor (recommended through a variac!).
 3. Drill and tap all M3 holes in the PCB (Use printable guide). Aluminum is soft, so be careful here! If you accidentally strip the holes, you can run a longer screw all the way through and a nut on the back of the heatsink.
-4. Screw down TO-247 switches with a sil pad to keep it electrically separated from the heatsink. Make sure to bend the pins upwards so the PCB fits in between them.
+4. Screw down TO-247 IGBT switches with a sil pad to keep it electrically separated from the heatsink. I like to use thermal paste on both sides of the silpad for added thermal conduction. Make sure to bend the pins upwards so the PCB fits in between them.
 5. Mount the PCB to the heatsink using standoffs (3 - 5mm is usually fine). Make sure the PCB connections and solder points do NOT and will NOT touch the heatsink!!
-6. Bend the switch leads down to the pads and solder them in place.
+6. Bend the IGBT switch leads down to the pads and solder them in place.
 7. Mount the GDT and solder the wires to the gate drive pads. Ensure correct phasing.
 
 
 Testing Gates:
 
-1. Connect a driver to the GDT and drive the gates at a frequency as close as possible to your desired operation frequency (Function generator to the GDT driver works well)
+1. Connect a proper driver to the GDT primary and drive the gates at a frequency as close as possible to your desired operation frequency (Function generator to the GDT driver works well)
 2. Test the Gates:
 	1. Probe the gate drive signal to assure gate waveforms look good using an oscilloscope.
-	2. Change out components or circuit elements until you get a good gate drive waveform
-	3. Assure all gates look good before proceeding... 
+	2. Change out components or circuit elements as needed to get a good gate drive waveform. Not always needed.
+	3. Assure all gates look good before proceeding...
 
 
 Testing Inverter:
 
-1. Make sure you are interrupting the output or you have a high enough impedance to not drain your capacitors. This is design dependant, but should be done for any SSTC/DRSSTC designs
+1. Make sure you are interrupting the output or have a high enough impedance to not drain your capacitors. This is design dependant, but should be done for any SSTC/DRSSTC design
 2. Connect the load to the inverter output (Primary coil you plan to drive or high Z load for low voltage testing) (NO SECONDAY IF SSTC/DRSSTC)
 3. Connect a variac and set the DC bus voltage to a low test voltage (~20-50V)
 4. Hook up an oscilloscope between D/S leads on one of the switches and test the waveform. Do this with all switches. Assure they are all switching properly before proceeding.
