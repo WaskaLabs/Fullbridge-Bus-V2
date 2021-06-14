@@ -1,6 +1,7 @@
 # Fullbridge-Bus-V2
-TO-247 Full-bridge with full wave voltage doubled capacitor bank. A fully integrated High Side for SSTCs, DRSSTCs, and HV sources
+TO-247 Full-bridge with full wave voltage doubled capacitor bank. A fully integrated High Side for SSTCs, DRSSTCs, and HV sources.
 
+PCB and Kits available for sale in the WaskaLabs store on tindie.com
 
 The full-bridge bus 2.0 is a fully integrated "high side" system designed for SSTC, DRSSTC Tesla coils, and other high power inverter applications.
 
