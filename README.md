@@ -33,7 +33,7 @@ Comes with:
 
 Required - Not included in kit:
 
-- Bus capacitors (~$4 each eBay, Amazon) (Choose appropriate voltage for your country)
+- Bus capacitors (~$8 each eBay, Amazon) (Choose appropriate voltage for your country)
 - IGBTs or MOSFETs (Mouser, Digikey) (Spec for your specific design)
 - 100x120mm Heatsink ($10 on Amazon)
 - M3 screws and nylon standoffs
